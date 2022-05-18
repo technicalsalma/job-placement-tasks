@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Tim Berners-Lee",
+    "description": "The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999. Another version, XHTML, was a rewrite of HTML as an XML language."
+  },
+  {
+    "name": "Håkon Wium Lie",
+    "description": "The saga of CSS starts in 1994. Håkon Wium Lie works at CERN – the cradle of the Web – and the Web is starting to be used as a platform for electronic publishing. One crucial part of a publishing platform is missing, however: There is no way to style documents. For example, there is no way to describe a newspaper-like layout in a Web page. Having worked on personalized newspaper presentations at the MIT Media Laboratory, Håkon saw the need for a style sheet language for the Web."
+  },
+  {
+   "name": "Brendan Eich",
+    "description": "Brendan Eich (/ˈaɪk/; born July 4, 1961)[1] is an American computer programmer and technology executive. He created the JavaScript programming language and co-founded the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation. He served as the Mozilla Corporation's chief technical officer before he was appointed chief executive officer, but resigned shortly after his appointment due to controversy over his opposition to same-sex marriage. He subsequently became the CEO of Brave Software."
+  }
+]
