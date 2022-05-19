@@ -24,14 +24,6 @@ const Login = () => {
     return (
       <div>
         <Card className="mt-5 mx-auto" style={{ width: "30rem" }}>
-          {/* <Card.Body>
-            <button
-              onClick={() => signInWithGoogle()}
-              className="btn btn-rounded bg-primary text-light"
-            >
-              Sign In With Google
-            </button>
-          </Card.Body> */}
           <div>
             <button
               onClick={() => signInWithGoogle()}

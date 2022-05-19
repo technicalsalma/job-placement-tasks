@@ -1,34 +1,32 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import User from '../User/User';
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-    const [users, setUsers] = useState([]);
-    const navigate = useNavigate();
-    useEffect( () => {
-        fetch("http://localhost:5000/user")
-          .then((res) => res.json())
-          .then((data) => setUsers(data));
-    },[])
+  const navigate = useNavigate();
 
-    const navigateUser= () =>{
-        navigate('/addtask')
-    }
+  const navigateUser = () => {
+    navigate("/addtask");
+  };
 
-    return (
-        <div>
-            <h2 className='mt-3'>AddTask: {users.length}</h2>
-            <div className='row gy-5'>
-                {
-                    users.map(user => <User
-                    key={user._id}
-                    user={user}
-                    ></User>)
-                }
-            </div>
-            <button onClick={() => navigateUser()} className='btn btn-rounded bg-primary text-light mt-5'>Add Task</button>
-        </div>
-    );
+  return (
+    <div className="App">
+      <br />
+      <br />
+      <br />
+      <h2>Welcome!</h2>
+      <h2>To</h2>
+      <br />
+      <h1>To Do Job Placement Task</h1>
+      <br />
+      <br />
+
+      <button
+        onClick={() => navigateUser()}
+        className="btn btn-rounded bg-primary text-light mt-5"
+      >
+        Add Task
+      </button>
+    </div>
+  );
 };
 
 export default Home;
